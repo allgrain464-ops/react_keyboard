@@ -1,6 +1,6 @@
 import React from 'react';
 
-class App extends React.Component<{}, { pressedKey: string | null }> {
+export class App extends React.Component<{}, { pressedKey: string | null }> {
   state = {
     pressedKey: null,
   };
@@ -31,5 +31,3 @@ class App extends React.Component<{}, { pressedKey: string | null }> {
     );
   }
 }
-
-export default App;
